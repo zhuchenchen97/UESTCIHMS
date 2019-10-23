@@ -1,0 +1,122 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/use1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        >
+
+        <ImageView
+            android:onClick="yiyuanjianjie"
+            android:id="@+id/yiyuanjianjie"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/recordgreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="医院简介"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/use2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/use1"
+        android:layout_marginLeft="40dp"
+        >
+
+        <ImageView
+            android:onClick="yiyuandaohang"
+            android:id="@+id/yiyuandaohang"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/gpspurple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="医院导航"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/use3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="80dp">
+
+            <ImageView
+                android:onClick="jiagegongshi"
+                android:id="@+id/jiagegongshi"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/paygreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="价格公示"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/use4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@id/use3"
+        android:layout_marginLeft="40dp">
+
+        <ImageView
+            android:onClick="zhinengdaozhen"
+            android:id="@+id/zhinengdaozhen"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/registeryellow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="智能导诊"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/fenxiang"
+    android:title="分享"
+    app:showAsAction="never"/>
+<item
+        android:id="@+id/guanyuwomen"
+        android:title="关于我们"
+        app:showAsAction="never"/>
+<item
+        android:id="@+id/mianzeshengming"
+        android:title="免责声明"
+        app:showAsAction="never"/>
+<item
+        android:id="@+id/yijianfankui"
+        android:title="意见反馈"
+        app:showAsAction="never"/>
+ <item
+        android:id="@+id/lianxikefu"
+        android:title="联系客服"
+        app:showAsAction="never"/>
+</menu>

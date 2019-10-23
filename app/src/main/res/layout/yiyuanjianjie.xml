@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp">
+    </ImageSwitcher>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/viewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines = "50"
+        android:scrollbars = "vertical"
+        android:text="电子科技大学为教育部直属重点大学，坐落于 “天府之国”的四川省成都市。1956年由交通大学、南京工学院、华南工学院的电子信息类学科合并创建而成，是首批进入“211”和“985”工程建设高校，占地5000余亩，分三个校区。
+电子科技大学医院始建于1956年，到今天已经走过 60年的风风雨雨。从医务室到现代化的医院，一路栉风沐雨、披荆斩棘，发展之路步履坚实，医者仁心传承不息。半个世纪的救死扶伤，三辈人的薪火相传，一代代“成电人”，用真挚的爱呵护着师生、患者的安康。
+       电子科技大学医院作为学校直属正处级单位，已经成为一所集医疗、预防、保健、康复为一体的二级乙等综合医院。系四川省高校保健医学研究会理事长单位，四川省教师资格证认证体检医院及成都市机动车驾驶员体检定点医院，同时也是四川省及成都市医保定点医院。医院建筑面积2.3万平米，由两个医院、两个医务室、一个社康中心构成。医院承担着校内6万师生、家属及校外周边社区居民3万人、富士康厂区10万人的医疗保健工作。
+       医院科室设置齐全。设有急诊科、内科、外科、口腔科、妇科、眼科、耳鼻咽喉科、康复科、中医科、药剂科、检验科、放射科、超声医学影像科、预防保健科、体检科等科室，确保了医疗的专业性。其中急诊科、B超、放射提供24小时服务。"
+        android:layout_marginTop="310dp"/>
+
+
+
+</FrameLayout>

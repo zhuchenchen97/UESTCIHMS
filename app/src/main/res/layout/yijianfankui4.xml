@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/edit_yijianfankui"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:background="@drawable/shape_yijiantext"
+        android:hint="请输入反馈的内容"
+        android:maxLines="6"/>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_button_long"
+        android:text="提交"
+        android:textColor="@color/colorSubmit"/>
+
+</LinearLayout>

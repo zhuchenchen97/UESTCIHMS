@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cebrandy.uestcihms">
+
+    <!-- 基础模块（必须加入以下声明）START -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 基础模块 END -->
+    <application
+        android:name=".MyLeanCloudApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 实时通信模块、推送（均需要加入以下声明） START -->
+        <!-- 实时通信模块、推送都要使用 PushService -->
+        <service android:name="com.avos.avoscloud.PushService" />
+
+        <receiver android:name="com.avos.avoscloud.AVBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- 实时通信模块、推送 END -->
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="电子科大附属医院">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".jianchabaogao" />
+        <activity android:name=".Message" />
+        <activity android:name=".Reserve" />
+        <activity android:name=".denglu" />
+        <activity android:name=".fenxiang1" />
+        <activity android:name=".guanyuwomen2" />
+        <activity android:name=".mianzeshengming3" />
+        <activity android:name=".yijianfankui4" />
+        <activity android:name=".lianxikefuActivity" />
+        <activity android:name=".gerenziliao" />
+        <activity android:name=".xiugaimima" />
+        <activity android:name=".Register" />
+        <activity android:name=".wangjimima" />
+        <activity android:name=".depart" />
+        <activity android:name=".doctor" />
+        <activity android:name=".doctor2" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".gerenziliaoEditor" />
+        <activity android:name=".yiyuanjianjie" />
+        <activity android:name=".yiyuandaohang" />
+        <activity android:name=".yiyuandaohang2" />
+        <activity android:name=".jiagegongshi" />
+        <activity android:name=".zhinengdaozhen" />
+        <activity android:name=".jingquechaxun" />
+        <activity android:name=".wodeyuyue" />
+        <activity android:name=".wodexiaoxi" />
+        <activity android:name=".zhengzhuang1.bisai" />
+        <activity android:name=".zhengzhuang1.exin" />
+        <activity android:name=".zhengzhuang1.fare" />
+        <activity android:name=".zhengzhuang1.kesou" />
+        <activity android:name=".zhengzhuang1.fuxie" />
+        <activity android:name=".zhengzhuang1.erming" />
+        <activity android:name=".zhengzhuang1.futong" />
+        <activity android:name=".zhengzhuang1.fali" />
+        <activity android:name=".zhengzhuang1.bianmi" />
+        <activity android:name=".zhengzhuang1.zz3_fenxi" />
+        <activity android:name=".doctor3" />
+        <activity android:name=".dialog"></activity>
+    </application>
+
+</manifest>

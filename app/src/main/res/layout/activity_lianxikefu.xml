@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:text=" IHMS移动平台客服热线是平台技术支持热线，每天服务时间为早上7点到晚上21点，7*12小时为用户提供在使用本平台过程中产生的问题的解答与指导，并对用户使用本平台的意见反馈提供客户回访。该客服热线暂不支持电子科技大学附属医院的医疗服务咨询，谢谢合作！"
+        android:id="@+id/lianxikefu_view"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="联系客服"
+        android:id="@+id/button_service"
+        android:layout_gravity="center_horizontal"
+        android:onClick="button_service"/>
+
+</LinearLayout>

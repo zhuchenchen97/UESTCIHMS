@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textmianzeshengming_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="                  IHMS移动APP——免责声明\n\n 欢迎使用IHMS移动APP，请您在使用IHMS服务平台前，仔细阅读本原则，如果您对本原则的任何条款表示异议，您可以选择
+不使用IHMS服务平台。您使用IHMS服务平台，则意味着您将自愿遵守以下原则，并完全服从于IHMS服务平台统一管理。\n 以下条款均适用于IHMS服务平台：\n\n
+一、产品声明\n 1.IHMS服务平台是由电子科技大学附属医院为指导，委托计四树苗小组合力研发，旨在为公众用户提供方便快捷的手机预约挂号服务及就诊相
+关信息查询服务。\n 二、使用须知\n 1.公众用户使用本产品时，需填写真实信息，方可享受本产品提供的预约挂号服务。\n 2.挂号成功后，公众用户需在规
+定时间内至医院付费取号就诊，方便快捷。\n 3.如果因用户个人原因导致未能在规定时间内就诊，请在就诊时间前及时取消预约。\n 4.就诊结束后，公众用户
+可对医生开具检查检验报告信息进行查询、查看。\n 三、免责声明\n 1.公众用户预约挂号成功后，平台将会发送预约成功通知到您的账户。公众用户持本人就
+诊卡在规定时间内至医院就诊，因通道故障导致的发送不成功和延迟发送，本网站平台概不负责。\n 2.为杜绝号贩子盗号，公众用户就诊时务必携带就诊卡，由
+于自身原因泄露信息导致取号不成功，后果由公众用户自负。\n 四、其它声明\n 1.本免责声明以及其修改权、更新权及最终解释权均属计四树苗小组所有。\n
+感谢您对我们的支持！"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</LinearLayout>

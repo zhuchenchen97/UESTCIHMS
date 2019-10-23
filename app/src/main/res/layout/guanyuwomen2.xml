@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textguanyuwomen_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        IHMS移动APP是电子科技大学附属医院与计四树苗小组联合开发的在手机上实现“管理健康，轻松就诊”的智慧医疗应用，提供手机预约挂号、信息查询、导医服务、健康档案管理等强大功能，大大简化了传统就医流程和档案存储方式，是您不可缺少的就医好帮手。
+       感谢计四树苗小组提供技术支持！"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imagewelcome_view"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/welcome"
+        />
+
+</LinearLayout>

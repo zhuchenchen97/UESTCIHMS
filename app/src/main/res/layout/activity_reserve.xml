@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/liulanyisheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="chaxunyisheng"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/message_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/reportblue" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+
+        android:text="浏览医生"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/jingquechaxun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liulanyisheng"
+        android:onClick="jingquechaxun"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/message_pic2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/searchpurple" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="精确查询"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/wodeyuyue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jingquechaxun"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="wodeyuyue"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/message_pic3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/appointmentblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="我的预约"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <ImageView
+            android:onClick="back_perinfo"
+            android:id="@+id/back_perinfo"
+            android:layout_gravity="center"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/messageMainTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="个人资料"
+            android:layout_marginRight="46dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider0"
+        android:layout_width="wrap_content"
+        android:layout_height="5px"
+        android:layout_below="@id/toolbar2"
+        android:background="#bbb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/per_info_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+
+                    android:text="姓名："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_name_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_name"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_schoolnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/per_info_name_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="学号："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_schoolnumber_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/per_info_schoolnumber"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/per_info_schoolnumber_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="性别："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_sex_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/per_info_sex"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_sex_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="年级："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_grade_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_grade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_college"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_grade_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="学院："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_college_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_college"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_college_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="专业："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_major_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_major"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt" />
+
+                <TextView
+                    android:id="@+id/per_info_hometown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_major_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="家乡："
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/per_info_hometown_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/per_info_hometown"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#d2d7d2"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="10pt"  />
+
+                <Button
+                    android:id="@+id/button_perinfo_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/per_info_hometown_et"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/darker_gray"
+                    android:text="提交" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5px"
+        android:background="#bbb" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <ImageView
+            android:onClick="back"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/messageMainTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="医生信息"
+            android:layout_marginRight="46dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider0"
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+     />
+
+
+    <ListView
+        android:id="@+id/listview_doc"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_weight="0.7"
+     />
+
+    <Button
+        android:id="@+id/appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="预约" />
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/NewsMainTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:text="     请选择一个符合您的症状："
+        android:textColor="@android:color/black"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        >
+    <Button
+        android:id="@+id/bisai"
+        android:onClick="bisai"
+        android:layout_marginLeft="30dp"
+        android:text="鼻塞"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#fce1e1"
+        android:textColor="#838c82"
+        android:textSize="25dp"
+         />
+
+    <Button
+        android:id="@+id/bianmi"
+        android:onClick="bianmi"
+        android:layout_marginLeft="20dp"
+        android:text="便秘"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#fce1e1"
+        android:textColor="#838c82"
+        android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/exin"
+            android:onClick="exin"
+            android:layout_marginLeft="20dp"
+            android:text="恶心"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/fali"
+            android:onClick="fali"
+            android:layout_marginLeft="30dp"
+            android:text="乏力"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"
+            />
+
+        <Button
+            android:id="@+id/fare"
+            android:onClick="fare"
+            android:layout_marginLeft="20dp"
+            android:text="发热"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/kesou"
+            android:onClick="kesou"
+            android:layout_marginLeft="20dp"
+            android:text="咳嗽"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/futong"
+            android:onClick="futong"
+            android:layout_marginLeft="30dp"
+            android:text="腹痛"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"
+            />
+
+        <Button
+            android:id="@+id/fuxie"
+            android:onClick="fuxie"
+            android:layout_marginLeft="20dp"
+            android:text="腹泻"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/erming"
+            android:onClick="erming"
+            android:layout_marginLeft="20dp"
+            android:text="耳鸣"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#fce1e1"
+            android:textColor="#838c82"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
